@@ -1,0 +1,4 @@
+/home/quantier-user/CLion-2020.2.4/clion-2020.2.4/bin/cmake/linux/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /home/quantier-user/CLionProjects/cse246_class_codes
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/quantier-user/CLionProjects/cse246_class_codes/cmake-build-debug

@@ -1,0 +1,3 @@
+/home/quantier-user/CLionProjects/cse246_class_codes/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/quantier-user/CLionProjects/cse246_class_codes/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/quantier-user/CLionProjects/cse246_class_codes/cmake-build-debug/CMakeFiles/cse246_class_codes.dir

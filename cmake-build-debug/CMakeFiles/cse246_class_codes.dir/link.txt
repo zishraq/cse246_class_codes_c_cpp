@@ -1,0 +1,1 @@
+/usr/bin/cc -g   CMakeFiles/cse246_class_codes.dir/merge_sort.c.o  -o cse246_class_codes 

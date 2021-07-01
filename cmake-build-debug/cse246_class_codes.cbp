@@ -82,7 +82,7 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/home/quantier-user/CLionProjects/cse246_class_codes/merge_sort.c">
+		<Unit filename="/home/quantier-user/CLionProjects/cse246_class_codes/sum_of_pairs.cpp">
 			<Option target="cse246_class_codes"/>
 		</Unit>
 		<Unit filename="/home/quantier-user/CLionProjects/cse246_class_codes/CMakeLists.txt">

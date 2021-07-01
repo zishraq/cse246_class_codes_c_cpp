@@ -143,32 +143,32 @@ cse246_class_codes/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/cse246_class_codes.dir/build.make CMakeFiles/cse246_class_codes.dir/build
 .PHONY : cse246_class_codes/fast
 
-merge_sort.o: merge_sort.c.o
+sum_of_pairs.o: sum_of_pairs.cpp.o
 
-.PHONY : merge_sort.o
+.PHONY : sum_of_pairs.o
 
 # target to build an object file
-merge_sort.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/cse246_class_codes.dir/build.make CMakeFiles/cse246_class_codes.dir/merge_sort.c.o
-.PHONY : merge_sort.c.o
+sum_of_pairs.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/cse246_class_codes.dir/build.make CMakeFiles/cse246_class_codes.dir/sum_of_pairs.cpp.o
+.PHONY : sum_of_pairs.cpp.o
 
-merge_sort.i: merge_sort.c.i
+sum_of_pairs.i: sum_of_pairs.cpp.i
 
-.PHONY : merge_sort.i
+.PHONY : sum_of_pairs.i
 
 # target to preprocess a source file
-merge_sort.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/cse246_class_codes.dir/build.make CMakeFiles/cse246_class_codes.dir/merge_sort.c.i
-.PHONY : merge_sort.c.i
+sum_of_pairs.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/cse246_class_codes.dir/build.make CMakeFiles/cse246_class_codes.dir/sum_of_pairs.cpp.i
+.PHONY : sum_of_pairs.cpp.i
 
-merge_sort.s: merge_sort.c.s
+sum_of_pairs.s: sum_of_pairs.cpp.s
 
-.PHONY : merge_sort.s
+.PHONY : sum_of_pairs.s
 
 # target to generate assembly for a file
-merge_sort.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/cse246_class_codes.dir/build.make CMakeFiles/cse246_class_codes.dir/merge_sort.c.s
-.PHONY : merge_sort.c.s
+sum_of_pairs.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/cse246_class_codes.dir/build.make CMakeFiles/cse246_class_codes.dir/sum_of_pairs.cpp.s
+.PHONY : sum_of_pairs.cpp.s
 
 # Help Target
 help:
@@ -179,9 +179,9 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... cse246_class_codes"
-	@echo "... merge_sort.o"
-	@echo "... merge_sort.i"
-	@echo "... merge_sort.s"
+	@echo "... sum_of_pairs.o"
+	@echo "... sum_of_pairs.i"
+	@echo "... sum_of_pairs.s"
 .PHONY : help
 
 

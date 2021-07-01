@@ -3,4 +3,4 @@ project(cse246_class_codes)
 
 set(CMAKE_CXX_STANDARD 20)
 
-add_executable(cse246_class_codes merge_sort.c)
+add_executable(cse246_class_codes sum_of_pairs.cpp)

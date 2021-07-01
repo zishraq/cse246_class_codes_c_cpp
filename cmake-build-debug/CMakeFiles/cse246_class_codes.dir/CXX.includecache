@@ -6,9 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/home/quantier-user/CLionProjects/cse246_class_codes/merge_sort_cpp.cpp
-iostream
--
-vector
+/home/quantier-user/CLionProjects/cse246_class_codes/sum_of_pairs.cpp
+bits/stdc++.h
 -
 

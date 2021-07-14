@@ -82,7 +82,7 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/home/quantier-user/CLionProjects/cse246_class_codes/sum_of_pairs.cpp">
+		<Unit filename="/home/quantier-user/CLionProjects/cse246_class_codes/number_theory_sieve.cpp">
 			<Option target="cse246_class_codes"/>
 		</Unit>
 		<Unit filename="/home/quantier-user/CLionProjects/cse246_class_codes/CMakeLists.txt">

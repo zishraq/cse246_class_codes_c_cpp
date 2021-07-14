@@ -143,32 +143,32 @@ cse246_class_codes/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/cse246_class_codes.dir/build.make CMakeFiles/cse246_class_codes.dir/build
 .PHONY : cse246_class_codes/fast
 
-sum_of_pairs.o: sum_of_pairs.cpp.o
+number_theory_sieve.o: number_theory_sieve.cpp.o
 
-.PHONY : sum_of_pairs.o
+.PHONY : number_theory_sieve.o
 
 # target to build an object file
-sum_of_pairs.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/cse246_class_codes.dir/build.make CMakeFiles/cse246_class_codes.dir/sum_of_pairs.cpp.o
-.PHONY : sum_of_pairs.cpp.o
+number_theory_sieve.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/cse246_class_codes.dir/build.make CMakeFiles/cse246_class_codes.dir/number_theory_sieve.cpp.o
+.PHONY : number_theory_sieve.cpp.o
 
-sum_of_pairs.i: sum_of_pairs.cpp.i
+number_theory_sieve.i: number_theory_sieve.cpp.i
 
-.PHONY : sum_of_pairs.i
+.PHONY : number_theory_sieve.i
 
 # target to preprocess a source file
-sum_of_pairs.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/cse246_class_codes.dir/build.make CMakeFiles/cse246_class_codes.dir/sum_of_pairs.cpp.i
-.PHONY : sum_of_pairs.cpp.i
+number_theory_sieve.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/cse246_class_codes.dir/build.make CMakeFiles/cse246_class_codes.dir/number_theory_sieve.cpp.i
+.PHONY : number_theory_sieve.cpp.i
 
-sum_of_pairs.s: sum_of_pairs.cpp.s
+number_theory_sieve.s: number_theory_sieve.cpp.s
 
-.PHONY : sum_of_pairs.s
+.PHONY : number_theory_sieve.s
 
 # target to generate assembly for a file
-sum_of_pairs.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/cse246_class_codes.dir/build.make CMakeFiles/cse246_class_codes.dir/sum_of_pairs.cpp.s
-.PHONY : sum_of_pairs.cpp.s
+number_theory_sieve.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/cse246_class_codes.dir/build.make CMakeFiles/cse246_class_codes.dir/number_theory_sieve.cpp.s
+.PHONY : number_theory_sieve.cpp.s
 
 # Help Target
 help:
@@ -179,9 +179,9 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... cse246_class_codes"
-	@echo "... sum_of_pairs.o"
-	@echo "... sum_of_pairs.i"
-	@echo "... sum_of_pairs.s"
+	@echo "... number_theory_sieve.o"
+	@echo "... number_theory_sieve.i"
+	@echo "... number_theory_sieve.s"
 .PHONY : help
 
 

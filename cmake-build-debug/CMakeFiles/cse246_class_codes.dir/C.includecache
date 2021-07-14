@@ -6,9 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/home/quantier-user/CLionProjects/cse246_class_codes/merge_sort.c
+/home/quantier-user/CLionProjects/cse246_class_codes/contiguous_sum2.c
 stdio.h
--
-stdlib.h
 -
 

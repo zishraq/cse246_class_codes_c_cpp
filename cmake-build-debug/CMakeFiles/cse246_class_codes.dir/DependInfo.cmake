@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/quantier-user/CLionProjects/cse246_class_codes/sum_of_pairs.cpp" "/home/quantier-user/CLionProjects/cse246_class_codes/cmake-build-debug/CMakeFiles/cse246_class_codes.dir/sum_of_pairs.cpp.o"
+  "/home/quantier-user/CLionProjects/cse246_class_codes/number_theory_sieve.cpp" "/home/quantier-user/CLionProjects/cse246_class_codes/cmake-build-debug/CMakeFiles/cse246_class_codes.dir/number_theory_sieve.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

@@ -77,27 +77,27 @@ include CMakeFiles/cse246_class_codes.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/cse246_class_codes.dir/flags.make
 
-CMakeFiles/cse246_class_codes.dir/sum_of_pairs.cpp.o: CMakeFiles/cse246_class_codes.dir/flags.make
-CMakeFiles/cse246_class_codes.dir/sum_of_pairs.cpp.o: ../sum_of_pairs.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/quantier-user/CLionProjects/cse246_class_codes/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/cse246_class_codes.dir/sum_of_pairs.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/cse246_class_codes.dir/sum_of_pairs.cpp.o -c /home/quantier-user/CLionProjects/cse246_class_codes/sum_of_pairs.cpp
+CMakeFiles/cse246_class_codes.dir/number_theory_sieve.cpp.o: CMakeFiles/cse246_class_codes.dir/flags.make
+CMakeFiles/cse246_class_codes.dir/number_theory_sieve.cpp.o: ../number_theory_sieve.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/quantier-user/CLionProjects/cse246_class_codes/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/cse246_class_codes.dir/number_theory_sieve.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/cse246_class_codes.dir/number_theory_sieve.cpp.o -c /home/quantier-user/CLionProjects/cse246_class_codes/number_theory_sieve.cpp
 
-CMakeFiles/cse246_class_codes.dir/sum_of_pairs.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/cse246_class_codes.dir/sum_of_pairs.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/quantier-user/CLionProjects/cse246_class_codes/sum_of_pairs.cpp > CMakeFiles/cse246_class_codes.dir/sum_of_pairs.cpp.i
+CMakeFiles/cse246_class_codes.dir/number_theory_sieve.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/cse246_class_codes.dir/number_theory_sieve.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/quantier-user/CLionProjects/cse246_class_codes/number_theory_sieve.cpp > CMakeFiles/cse246_class_codes.dir/number_theory_sieve.cpp.i
 
-CMakeFiles/cse246_class_codes.dir/sum_of_pairs.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/cse246_class_codes.dir/sum_of_pairs.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/quantier-user/CLionProjects/cse246_class_codes/sum_of_pairs.cpp -o CMakeFiles/cse246_class_codes.dir/sum_of_pairs.cpp.s
+CMakeFiles/cse246_class_codes.dir/number_theory_sieve.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/cse246_class_codes.dir/number_theory_sieve.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/quantier-user/CLionProjects/cse246_class_codes/number_theory_sieve.cpp -o CMakeFiles/cse246_class_codes.dir/number_theory_sieve.cpp.s
 
 # Object files for target cse246_class_codes
 cse246_class_codes_OBJECTS = \
-"CMakeFiles/cse246_class_codes.dir/sum_of_pairs.cpp.o"
+"CMakeFiles/cse246_class_codes.dir/number_theory_sieve.cpp.o"
 
 # External object files for target cse246_class_codes
 cse246_class_codes_EXTERNAL_OBJECTS =
 
-cse246_class_codes: CMakeFiles/cse246_class_codes.dir/sum_of_pairs.cpp.o
+cse246_class_codes: CMakeFiles/cse246_class_codes.dir/number_theory_sieve.cpp.o
 cse246_class_codes: CMakeFiles/cse246_class_codes.dir/build.make
 cse246_class_codes: CMakeFiles/cse246_class_codes.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/quantier-user/CLionProjects/cse246_class_codes/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable cse246_class_codes"

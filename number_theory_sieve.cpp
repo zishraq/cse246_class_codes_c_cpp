@@ -18,45 +18,45 @@ void sieve(int n) {
     }
 }
 
-void modifiedCountDivisorSieve(int n) {
-    vector <int> number_of_divisor(n + 1, 0);
+void NumberOfDivisorSieve(int n) {
+    vector <int> number_of_divisors(n + 1, 0);
 
     for (int i = 1; i <= n; i++) {
         for (int j = i; j <= n; j += i) {
-            number_of_divisor[j]++;
+            number_of_divisors[j]++;
         }
     }
 
     for (int i = 1; i <= n; i++) {
-        cout << i << ": " << number_of_divisor[i] << endl;
+        cout << i << ": " << number_of_divisors[i] << endl;
     }
 }
 
-void modifiedSumDivisorSieve(int n) {
-    vector <int> number_of_divisor(n + 1, 0);
+void SumOfDivisorSieve(int n) {
+    vector <int> sum_of_divisors(n + 1, 0);
 
     for (int i = 1; i <= n; i++) {
         for (int j = i; j <= n; j += i) {
-            number_of_divisor[j] += i;
+            sum_of_divisors[j] += i;
         }
     }
 
     for (int i = 1; i <= n; i++) {
-        cout << i << ": " << number_of_divisor[i] << endl;
+        cout << i << ": " << sum_of_divisors[i] << endl;
     }
 }
 
-void modifiedProductDivisorSieve(int n) {
-    vector <long long int> product_of_divisor(n + 1, 1);
+void ProductOfDivisorSieve(int n) {
+    vector <long long int> product_of_divisors(n + 1, 1);
 
     for (long long int i = 1; i <= n; i++) {
         for (long long int j = i; j <= n; j += i) {
-            product_of_divisor[j] *= i;
+            product_of_divisors[j] *= i;
         }
     }
 
     for (long long int i = 1; i <= n; i++) {
-        cout << i << ": " << product_of_divisor[i] << endl;
+        cout << i << ": " << product_of_divisors[i] << endl;
     }
 }
 
@@ -69,15 +69,15 @@ int main() {
     cout << endl;
 
     cout << "Number of Divisors of numbers within " << n <<": " << endl;
-    modifiedCountDivisorSieve(n);
+    NumberOfDivisorSieve(n);
     cout << endl;
 
     cout << "Sum of Divisors of each number within " << n <<": " << endl;
-    modifiedSumDivisorSieve(n);
+    SumOfDivisorSieve(n);
     cout << endl;
 
     cout << "Product of Divisors of each number within " << n <<": " << endl;
-    modifiedProductDivisorSieve(n);
+    ProductOfDivisorSieve(n);
     cout << endl;
 
     return 0;

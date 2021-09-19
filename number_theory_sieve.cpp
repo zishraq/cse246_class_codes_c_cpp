@@ -6,11 +6,11 @@ void sieve(int n) {
 
     isPrime[0] = isPrime[1] = false;
 
-    for (int i = 2; i <= n; i++) {
+    for (long long int i = 2; i <= n; i++) {
         if (isPrime[i]) {
             cout << i << endl;
 
-            for (int j = i * i; j <= n; j += i) {
+            for (long long int j = i * i; j <= n; j += i) {
 
                 isPrime[j] = false;
             }
@@ -62,23 +62,25 @@ void ProductOfDivisorSieve(int n) {
 
 
 int main() {
-    int n = 100;
+    long long int n = 10000000;
 
     cout << "Prime numbers within " << n <<": " << endl;
     sieve(n);
     cout << endl;
 
-    cout << "Number of Divisors of numbers within " << n <<": " << endl;
-    NumberOfDivisorSieve(n);
-    cout << endl;
+//    cout << "Number of Divisors of numbers within " << n <<": " << endl;
+//    NumberOfDivisorSieve(n);
+//    cout << endl;
+//
+//    cout << "Sum of Divisors of each number within " << n <<": " << endl;
+//    SumOfDivisorSieve(n);
+//    cout << endl;
 
-    cout << "Sum of Divisors of each number within " << n <<": " << endl;
-    SumOfDivisorSieve(n);
-    cout << endl;
+//    cout << "Product of Divisors of each number within " << n <<": " << endl;
+//    ProductOfDivisorSieve(n);
+//    cout << endl;
 
-    cout << "Product of Divisors of each number within " << n <<": " << endl;
-    ProductOfDivisorSieve(n);
-    cout << endl;
+//    cout << NumberOfDivisorSieve(n) << SumOfDivisorSieve(n) << endl;
 
     return 0;
 }
